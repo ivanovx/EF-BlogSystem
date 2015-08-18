@@ -12,3 +12,17 @@ C:\Users\Ivan\Desktop\BlogSystem\BlogSystem.ConsoleClient\bin\Debug\EntityFramew
 C:\Users\Ivan\Desktop\BlogSystem\BlogSystem.ConsoleClient\obj\Debug\BlogSystem.ConsoleClient.csprojResolveAssemblyReference.cache
 C:\Users\Ivan\Desktop\BlogSystem\BlogSystem.ConsoleClient\obj\Debug\BlogSystem.ConsoleClient.exe
 C:\Users\Ivan\Desktop\BlogSystem\BlogSystem.ConsoleClient\obj\Debug\BlogSystem.ConsoleClient.pdb
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\bin\Debug\BlogSystem.ConsoleClient.exe.config
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\obj\Debug\BlogSystem.ConsoleClient.exe
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\obj\Debug\BlogSystem.ConsoleClient.pdb
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\bin\Debug\BlogSystem.ConsoleClient.exe
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\bin\Debug\BlogSystem.ConsoleClient.pdb
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\bin\Debug\BlogSystem.Data.dll
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\bin\Debug\BlogSystem.Models.dll
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\bin\Debug\BlogSystem.Data.pdb
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\bin\Debug\BlogSystem.Models.pdb
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.ConsoleClient\obj\Debug\BlogSystem.ConsoleClient.csprojResolveAssemblyReference.cache
