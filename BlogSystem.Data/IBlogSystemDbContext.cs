@@ -4,17 +4,17 @@
     using System.Data.Entity.Infrastructure;
     using System.Runtime.Remoting;
 
-    using BlogSystem.Models;
+    using global::BlogSystem.Models;
 
     public interface IBlogSystemDbContext
     {
         IDbSet<User> Users { get; set; }
 
-        IDbSet<Post> Posts { get; set; }
+        //IDbSet<Post> Posts { get; set; }
 
-        IDbSet<Comment> Comments { get; set; }
+        //IDbSet<Comment> Comments { get; set; }
 
-        IDbSet<Tag> Tags { get; set; }
+        //IDbSet<Tag> Tags { get; set; }
 
         int SaveChanges();
 

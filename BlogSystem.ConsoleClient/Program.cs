@@ -6,7 +6,6 @@
     using System.Runtime.CompilerServices;
 
     using BlogSystem.Data;
-    using BlogSystem.Data.Migrations;
     using BlogSystem.Data.Repositories;
     using BlogSystem.Models;
 
@@ -14,25 +13,31 @@
     {
         public static void Main()
         {
-            var db = new BlogSystemDbContext();
-
-            db.Users.Add(new User
-          {
-                Username = "csyntax",
-                Gender = Gender.Male,
-                RegistrationDate = DateTime.Now,
-                FullName = "Ivan Ivanov",
-                Birthday = new DateTime(1998, 12, 10),
-                ContactInfo = new UserContactInfo
+               using (var db = new BlogSystem())
                {
-                    Twitter = "@csyntax",
-                    Facebook = "IvanIvanov",
-                    PhoneNumber = "0888888888",
-                    Skype = "SkypeProfile"
-                }
-            });
+                    db.Users.Add(new User
+                    {
+                        Username = "csyntax",
+                    Gender = Gender.Male,
+                    RegistrationDate = DateTime.Now,
+                    FullName = "Ivan Ivanov",
+                    Birthday = new DateTime(1998, 12, 10),
+                    ContactInfo = new UserContactInfo
+                    {
+                        Twitter = "@csyntax",
+                        Facebook = "IvanIvanov",
+                        PhoneNumber = "0888888888",
+                        Skype = "SkypeProfile"
+                    }
+                });
 
-           db.SaveChanges();
+                db.SaveChanges();
+
+                foreach (var user in db.Users)
+                {
+                    Console.WriteLine(user.Id);
+                }
+            }
         }
     }
 }

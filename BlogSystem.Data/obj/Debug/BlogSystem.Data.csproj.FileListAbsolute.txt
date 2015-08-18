@@ -22,7 +22,5 @@ C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.Data\bin\Debug\BlogSystem.M
 C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.Data\bin\Debug\EntityFramework.xml
 C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.Data\obj\Debug\BlogSystem.Data.csprojResolveAssemblyReference.cache
-C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.Data\obj\Debug\BlogSystem.Data.Migrations.InitialCreate.resources
-C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.Data\obj\Debug\BlogSystem.Data.csproj.GenerateResource.Cache
 C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.Data\obj\Debug\BlogSystem.Data.dll
 C:\Users\Ivan\Documents\GitHub\BlogSystem\BlogSystem.Data\obj\Debug\BlogSystem.Data.pdb

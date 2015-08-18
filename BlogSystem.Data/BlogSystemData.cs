@@ -3,8 +3,8 @@
     using System;
     using System.Collections.Generic;
 
-    using BlogSystem.Data.Repositories;
-    using BlogSystem.Models;
+    using global::BlogSystem.Data.Repositories;
+    using global::BlogSystem.Models;
 
     public class BlogSystemData : IBlogSystemData
     {

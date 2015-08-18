@@ -2,8 +2,8 @@
 {
     using System;
 
-    using BlogSystem.Data.Repositories;
-    using BlogSystem.Models;
+    using global::BlogSystem.Data.Repositories;
+    using global::BlogSystem.Models;
 
     public interface IBlogSystemData
     {

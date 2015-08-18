@@ -2,12 +2,11 @@
 {
     using System.Data.Entity;
 
-    using BlogSystem.Models;
+    using global::BlogSystem.Models;
 
-    public class BlogSystemDbContext : DbContext, IBlogSystemDbContext
+    public class BlogSystem : DbContext, IBlogSystemDbContext
     {
-        public BlogSystemDbContext()
-            : base("BlogSystem")
+        public BlogSystem() : base("BlogSystem")
         {
         }
 

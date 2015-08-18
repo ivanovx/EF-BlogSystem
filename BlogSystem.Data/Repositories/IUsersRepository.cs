@@ -2,7 +2,7 @@
 {
     using System.Linq;
 
-    using BlogSystem.Models;
+    using global::BlogSystem.Models;
 
     public interface IUsersRepository : IRepository<User>
     {
