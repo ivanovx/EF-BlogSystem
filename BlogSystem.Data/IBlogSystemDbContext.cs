@@ -16,7 +16,7 @@
 
         IDbSet<Tag> Tags { get; set; }
 
-        int SaveChanges();
+        //int SaveChanges();
 
         DbEntityEntry<TEntity> Entry<TEntity>(TEntity entity) where TEntity : class;
 

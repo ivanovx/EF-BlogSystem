@@ -46,9 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BlogSystemData.cs" />
     <Compile Include="BlogSystemDbContext.cs" />
-    <Compile Include="IBlogSystemData.cs" />
     <Compile Include="IBlogSystemDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\GenericRepository.cs" />

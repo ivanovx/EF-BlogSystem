@@ -6,9 +6,9 @@
 
     public class BlogSystemDbContext : DbContext, IBlogSystemDbContext
     {
-        public BlogSystemDbContext()
-            : base("BlogSystem")
+        public BlogSystemDbContext() : base("BlogSystem")
         {
+
         }
 
         public IDbSet<User> Users { get; set; }
