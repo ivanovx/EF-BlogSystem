@@ -20,7 +20,7 @@
 				Gender = Gender.Male,
 				RegistrationDate = DateTime.Now,
 				FullName = "Ivan Ivanov",
-				Birthday = new DateTime(1876, 11, 12),
+				Birthday = new DateTime(1998,12,10),
 				ContactInfo = new UserContactInfo
 				{
                     Twitter = "@slayer.word.11",
@@ -31,8 +31,6 @@
             });
 
             db.SaveChanges();
-
-            Console.WriteLine(db.Users.Count());
         }
     }
 }
