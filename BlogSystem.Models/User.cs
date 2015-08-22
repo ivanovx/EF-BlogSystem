@@ -30,14 +30,26 @@
 
         public virtual ICollection<Post> Posts
         {
-            get { return this.posts; }
-            set { this.posts = value; }
+            get
+            {
+                return this.posts;
+            }
+            set
+            {
+                this.posts = value;
+            }
         }
 
         public virtual ICollection<Comment> Comments
         {
-            get { return this.comments; }
-            set { this.comments = value; }
+            get
+            {
+                return this.comments;
+            }
+            set
+            {
+                this.comments = value;
+            }
         } 
     }
 }

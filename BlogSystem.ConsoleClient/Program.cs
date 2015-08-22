@@ -6,12 +6,11 @@
     using System.Runtime.CompilerServices;
 
     using BlogSystem.Data;
-    using BlogSystem.Data.Repositories;
     using BlogSystem.Models;
 
     public class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             var db = new BlogSystemDbContext();
 
@@ -24,7 +23,7 @@
 				Birthday = new DateTime(1876, 11, 12),
 				ContactInfo = new UserContactInfo
 				{
-                   Twitter = "@slayer.word.11",
+                    Twitter = "@slayer.word.11",
                     Facebook = "IvanIvanov",
                     PhoneNumber = "0888888888",
                     Skype = "ivanivanov982"

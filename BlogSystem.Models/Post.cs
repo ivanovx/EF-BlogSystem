@@ -23,8 +23,14 @@
 
         public virtual ICollection<Tag> Tags
         {
-            get { return this.tags; }
-            set { this.tags = value; }
+            get
+            {
+                return this.tags;
+            }
+            set
+            {
+                this.tags = value;
+            }
         }
     }
 }
