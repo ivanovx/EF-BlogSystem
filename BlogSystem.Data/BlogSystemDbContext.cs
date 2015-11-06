@@ -1,10 +1,9 @@
 ﻿namespace BlogSystem.Data
 {
     using System.Data.Entity;
-
     using BlogSystem.Models;
 
-    public class BlogSystemDbContext : DbContext, IBlogSystemDbContext
+    public class BlogSystemDbContext : DbContext
     {
         public BlogSystemDbContext() : base("BlogSystem")
         {
